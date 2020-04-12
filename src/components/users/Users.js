@@ -21,19 +21,13 @@ const Users = () => {
     );
   } else {
     return (
-      <div style={userStyle}>
+      <div className="grid-3">
         {users.map((user) => (
           <UserItem key={user.id} user={user} />
         ))}
       </div>
     );
   }
-};
-
-const userStyle = {
-  display: 'grid',
-  gridTemplateColumns: 'repeat(3, 1fr)',
-  gridGap: '1rem',
 };
 
 export default Users;
