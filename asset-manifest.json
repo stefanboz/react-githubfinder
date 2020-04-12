@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-githubfinder/static/css/main.69d1c331.chunk.css",
+    "main.js": "/react-githubfinder/static/js/main.9f787304.chunk.js",
+    "main.js.map": "/react-githubfinder/static/js/main.9f787304.chunk.js.map",
+    "runtime-main.js": "/react-githubfinder/static/js/runtime-main.35ed4131.js",
+    "runtime-main.js.map": "/react-githubfinder/static/js/runtime-main.35ed4131.js.map",
+    "static/js/2.af11f70a.chunk.js": "/react-githubfinder/static/js/2.af11f70a.chunk.js",
+    "static/js/2.af11f70a.chunk.js.map": "/react-githubfinder/static/js/2.af11f70a.chunk.js.map",
+    "index.html": "/react-githubfinder/index.html",
+    "precache-manifest.808d51f0c8fc472aae0fbcb5934ac1bb.js": "/react-githubfinder/precache-manifest.808d51f0c8fc472aae0fbcb5934ac1bb.js",
+    "service-worker.js": "/react-githubfinder/service-worker.js",
+    "static/css/main.69d1c331.chunk.css.map": "/react-githubfinder/static/css/main.69d1c331.chunk.css.map",
+    "static/media/404.jpg": "/react-githubfinder/static/media/404.0c4a6d89.jpg",
+    "static/media/zeromatches.jpg": "/react-githubfinder/static/media/zeromatches.563a7a14.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.35ed4131.js",
+    "static/js/2.af11f70a.chunk.js",
+    "static/css/main.69d1c331.chunk.css",
+    "static/js/main.9f787304.chunk.js"
+  ]
+}
