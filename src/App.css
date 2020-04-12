@@ -384,7 +384,7 @@ table th {
 }
 
 /* Desktop Styles */
-@media screen and (min-width: 992px) {
+@media (min-width: 992px) {
   .img-info__lg {
     width: 23.75rem;
   }
