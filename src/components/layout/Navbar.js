@@ -5,14 +5,14 @@ import { Link } from 'react-router-dom';
 const Navbar = ({ icon, title }) => {
   return (
     <nav className="navbar bg-primary">
-      <Link to="/">
-        <h1>
-          <i className={icon}></i> {title}
-        </h1>
-      </Link>
+      <h1>
+        <i className={icon}></i> {title}
+      </h1>
       <ul>
         <li>
           <Link to="/">Home</Link>
+        </li>
+        <li>
           <Link to="/about">About</Link>
         </li>
       </ul>
@@ -21,7 +21,7 @@ const Navbar = ({ icon, title }) => {
 };
 
 Navbar.defaultProps = {
-  title: 'Github Users Finder',
+  title: 'Github Finder',
   icon: 'fab fa-github',
 };
 

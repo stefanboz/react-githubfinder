@@ -1,29 +1,17 @@
 import React, { useContext } from 'react';
-
-import GithubContext from '../../context/github/githubContext';
-
 import UserItem from './UserItem';
 import Spinner from '../layout/Spinner';
-import zeroMatches from '../../assets/zeromatches.jpg';
+import GithubContext from '../../context/github/githubContext';
 
 const Users = () => {
-  const githubContext = useContext(GithubContext);
-
-  const { users, loading, searchMatchesFound } = githubContext;
-
+  const { users, loading } = useContext(GithubContext);
   if (loading) {
     return <Spinner />;
-  } else if (!searchMatchesFound) {
-    return (
-      <div className="text-center">
-        <img src={zeroMatches} alt="No matches found" className="img-info" />
-      </div>
-    );
   } else {
     return (
       <div className="grid-3">
         {users.map((user) => (
-          <UserItem key={user.id} user={user} />
+          <UserItem user={user} key={user.id} />
         ))}
       </div>
     );
